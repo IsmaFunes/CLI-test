@@ -1,10 +1,6 @@
 #!/usr/bin/env node
 
-const chalk = require('chalk');
 const clear = require('clear');
-const figlet = require('figlet');
-
-const files = require('./lib/files');
 const core = require('./lib/core');
 
 clear();
@@ -15,11 +11,7 @@ clear();
 //     process.exit();
 // }
 
-console.log(
-    chalk.red(
-      figlet.textSync('SS.Core', { horizontalLayout: 'full' })
-    )
-  );
-
 core.init();
+
+
 
