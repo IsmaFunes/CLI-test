@@ -21,5 +21,5 @@ console.log(
     )
   );
 
-core.generatePattern();
+core.init();
 

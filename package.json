@@ -25,6 +25,6 @@
     "touch": "^3.1.0"
   },
   "bin": {
-    "generate": "./index.js"
+    "core": "./index.js"
   }
 }
