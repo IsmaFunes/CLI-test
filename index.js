@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-
+require('./lib/common');
 const clear = require('clear');
 const core = require('./lib/core');
 
