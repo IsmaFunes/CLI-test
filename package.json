@@ -1,13 +1,19 @@
 {
   "name": "core-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "SS Core framework front-end code generator",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Seabury Solutions",
+  "contributors": [
+    {
+      "name": "Ismael Funes",
+      "email": "ifunes@seaburysolutions.com"
+    }
+  ],
   "license": "ISC",
   "dependencies": {
     "@octokit/rest": "^16.33.1",
