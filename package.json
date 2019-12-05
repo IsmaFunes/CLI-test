@@ -4,7 +4,7 @@
   "description": "SS Core framework front-end code generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel lib --out-dir dist"
   },
   "keywords": [],
   "author": "Seabury Solutions",
@@ -16,6 +16,8 @@
   ],
   "license": "ISC",
   "dependencies": {
+    "@babel/node": "^7.7.4",
+    "@babel/polyfill": "^7.7.0",
     "@octokit/rest": "^16.33.1",
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
@@ -31,6 +33,11 @@
     "touch": "^3.1.0"
   },
   "bin": {
-    "core": "./index.js"
+    "core": "./dist/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4"
   }
 }
