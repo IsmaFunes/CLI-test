@@ -4,7 +4,8 @@
   "description": "SS Core framework front-end code generator",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "babel lib --out-dir dist"
+    "build": "babel lib --out-dir dist",
+    "publish": "npm run build && npm publish"
   },
   "keywords": [],
   "author": "Seabury Solutions",
@@ -22,6 +23,7 @@
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
+    "commander": "^4.0.1",
     "configstore": "^5.0.0",
     "esm": "^3.2.25",
     "figlet": "^1.2.4",
@@ -29,6 +31,7 @@
     "lodash": "^4.17.15",
     "minimist": "^1.2.0",
     "path": "^0.12.7",
+    "rxjs": "^6.5.3",
     "simple-git": "^1.126.0",
     "touch": "^3.1.0"
   },
